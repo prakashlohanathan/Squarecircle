@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.square{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+}
+.circle{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: #ffff;
+    cursor:pointer;
+}
+</style>
+<body>
+    <div class="square">
+    <div class="circle"></div>
+</div>
+<div class="input-container">
+    <button id="red-btn">Red</button>
+    <button id="blue-btn">Blue</button>
+    <button id="orange-btn">Orange</button>
+    <button id="reset-btn">Reset</button>
+    <br><br>
+    <label for="custom-color">Custom Color: </label>
+    <input type="text" id="custom-color" placeholder="Enter a color">
+</div>
+    <script src="script.js" alt="image"></script>
+</body>
+</html>
